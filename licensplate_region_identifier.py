@@ -1,17 +1,7 @@
-import torch
-import matplotlib.pyplot as plt
-import matplotlib
-import cv2
-import os
-import numpy as np
 import re
 import pandas as pd
-from PIL import Image
-
-from torchvision import transforms
 import easyocr
 from pprint import pprint
-from skimage.io import imread,imsave
 from pytorch_licenseplate_segmentation.licensplate_finder import Licensplate_finder
 
 class Licensplate_region_identifier():
@@ -57,9 +47,7 @@ class Licensplate_region_identifier():
 
 if __name__ == '__main__':
     licensplate_region_identifier = Licensplate_region_identifier()
-    # image_path = r'/home/yuri/Downloads/e.png'
-    image_path = r'/media/yuri/A7/pycharm_projects/Tutorials/licence_plates/images/R6ih80R17Yk.jpg'
-    # image_path = r'/media/yuri/A7/pycharm_projects/Tutorials/licence_plates/images/1520287861170497313.jpg'
+    image_path = r'images/po-krasnodaru-kolesyat-avtomobili-so-strannymi-nomerami-video.jpg'
     result = licensplate_region_identifier.process(image_path)
     pprint(result)
 

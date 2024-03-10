@@ -7,5 +7,10 @@
 >5. Распознавание текста с помощью модуля OCR  
 >6. Перевод распознанного кода региона в название региона  
 
+Для запуска кода неободимо выполнить следующие действия:  
+>1. Установить библиотеки pip install -r requirements.txt  
+>2. Скачать модель по ссылке https://drive.google.com/file/d/1swIP6OOYYMTDWun8RdGFgBwKdpzOaXw7/view и положить её в папку pytorch_licenseplate_segmentation  
+>3. Запустить файл licensplate_region_identifier.py указав путь к изображению
+
 
 
