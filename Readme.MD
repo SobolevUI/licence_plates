@@ -1,6 +1,9 @@
 #### Определения региона регистрации автомобиля по его фото 
 
-![Удмуртская Республика](https://github.com/SobolevUI/licence_plates/blob/main/images/1.jpg) ![Краснодарский край](https://github.com/SobolevUI/licence_plates/blob/main/images/2.jpg) 
+В результате обрабоки изображения ниже будет получена строка "Удмуртская республика"  
+![Удмуртская Республика](https://github.com/SobolevUI/licence_plates/blob/main/images/1.jpg)    
+В результате обрабоки изображения ниже будет получена строка "Краснодарский край"
+![Краснодарский край](https://github.com/SobolevUI/licence_plates/blob/main/images/2.jpg) 
 
 Код работает следующим образом:  
 >1. Сегментация табличка с регистрационным номером используя предобученную модель из репозитория https://github.com/dbpprt/pytorch-licenseplate-segmentation  
